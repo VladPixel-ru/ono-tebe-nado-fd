@@ -12,7 +12,8 @@ https://github.com/VladPixel-ru/first-project
 
 ### Скриншот
 
-(https://github.com/MikeBeloborodov/ono-tebe-nado/blob/main/screenshot.png?raw=true)
+![screenshot](https://github.com/user-attachments/assets/7278285a-d0b7-455c-81af-12db8297a479)
+
 
 ### Макет
 
@@ -20,7 +21,7 @@ https://github.com/VladPixel-ru/first-project
 
 ### Ссылки
 
-- URL решения: [Github](https://github.com/MikeBeloborodov/ono-tebe-nado)
+- URL решения: [Github](https://github.com/VladPixel-ru/ono-tebe-nado)
 - URL лайв сервера: [Netlify](https://startling-smakager-41be0b.netlify.app/)
 
 ## Автор
