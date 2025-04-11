@@ -1,4 +1,4 @@
-https://github.com/VladPixel-ru/first-project
+https://github.com/VladPixel-ru/ono-tebe-nado-fd
 
 # Яндекс Практикум, 1 спринт, проект "Оно тебе надо"
 
@@ -21,7 +21,7 @@ https://github.com/VladPixel-ru/first-project
 
 ### Ссылки
 
-- URL решения: [Github](https://github.com/VladPixel-ru/ono-tebe-nado)
+- URL решения: [Github](https://github.com/VladPixel-ru/ono-tebe-nado-fd)
 - URL лайв сервера: [Netlify](https://startling-smakager-41be0b.netlify.app/)
 
 ## Автор
