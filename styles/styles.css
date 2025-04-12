@@ -226,7 +226,6 @@ main {
     min-height: 563px;
     padding: 51px 40px 48px;
     justify-content: space-between;
-
   }
   
   .card_type_book {
@@ -353,20 +352,6 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 180px 50px 80px;
-    @font-face{font-family:"RalewayRegular";
-      src:url('fonts/mycotext_rg.eot');
-      src:url('fonts/mycotext_rg.eot?#iefix') format('eot'),
-          url('fonts/mycotext_rg.woff') format('woff'),
-          url('fonts/mycotext_rg.ttf') format('truetype'),
-          url('fonts/mycotext_rg.svg') format('svg');
-      font-weight:"normal"}
-      @font-face{font-family:"RalewayBold";
-        src:url('fonts/mycotext_rg.eot');
-        src:url('fonts/mycotext_rg.eot?#iefix') format('eot'),
-            url('fonts/mycotext_rg.woff') format('woff'),
-            url('fonts/mycotext_rg.ttf') format('truetype'),
-            url('fonts/mycotext_rg.svg') format('svg');
-        font-weight:"normal"}
   }
   
   .footer__social-icon {
