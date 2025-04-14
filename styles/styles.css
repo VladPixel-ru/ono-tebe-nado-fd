@@ -11,15 +11,10 @@ main {
   
   .header {
     display: grid;
-    grid-template-columns: 1.51fr 2fr 1.5fr;
+    grid-template-columns: 1.51fr 0fr 1.5fr;
     align-items: center;
-    padding: 92px 51px 89px;
-    
-    }
-    
-    body {
-      font-family: 'Raleway', sans-serif;
-    }
+    padding: 82px 0px 82px;
+}
 
   .header__links-list {
     display: flex;
@@ -63,14 +58,13 @@ main {
     font-style: inherit;
   }
 
-  .header__address {
+  .head-address {
     justify-self: end;
     font-style: inherit;
-    padding-right: 54px;
-    width: 278px;
-    font-family: 'Raleway';
+    width: 185px;
+    font-family: 'Raleway',sans-serif;
     font-weight: 400;
-  }
+}
   
   .address__item {
     display: block;
@@ -106,16 +100,17 @@ main {
   .cover__title {
     position: relative;
     z-index: 1;
-    display: flex;
+    display: flex
+;
     flex-direction: column;
     gap: 20px;
     color: #FFF;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 64px;
     line-height: 1.15;
     letter-spacing: 30px;
     text-transform: uppercase;
-  }
+}
   
   .aligned-text {
     display: block;
@@ -194,13 +189,14 @@ main {
     list-style: none;
   }
   
-  .lost__card-list-item {
+  .lots__card-list-item {
     height: 100%;
   }
   
   .card-link {
     display: block;
     height: 100%;
+    text-decoration: none;
   }
   
   .card {
@@ -213,14 +209,14 @@ main {
     height: 100%;
   }
   
-  .card_type_film { 
+  .card-film { 
     display: flex;
     background-image: url(https://github.com/MikeBeloborodov/ono-tebe-nado/blob/main/images/card-lot-01.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -2;
+    z-index: 2;
     flex-grow: 1;
     flex-direction: column;
     min-height: 563px;
@@ -228,7 +224,7 @@ main {
     justify-content: space-between;
   }
   
-  .card_type_book {
+  .card-book {
     display: flex;
     background-image: url(https://github.com/MikeBeloborodov/ono-tebe-nado/blob/main/images/card-lot-02.jpg?raw=true);
     background-repeat: no-repeat;
@@ -240,7 +236,7 @@ main {
     flex-direction: column;
   }
   
-  .card_type_picture {
+  .card-picture {
     display: flex;
     background-image: url(https://github.com/MikeBeloborodov/ono-tebe-nado/blob/main/images/card-lot-03.jpg?raw=true);
     background-repeat: no-repeat;
@@ -307,7 +303,7 @@ main {
     border-radius: 50%;
     background-color: #000000;
   }
-  #circle {
+  .logo_img {
     display: flex;
     justify-self: center;
     justify-content: center;
@@ -320,11 +316,6 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;
-  }
-  .about__logo-image {
-    position: absolute;
-    width: 240px;
-    height: 240px;
     left: 47px;
     top: 35px;
   }
@@ -340,7 +331,6 @@ main {
   .about__text {
     display: flex;
     flex-direction: column;
-    gap: 25px;
   }
   
   .about__text p {
