@@ -5,7 +5,7 @@ main {
   }
   
   .content-section {
-    width: 100%;
+    width: 1052px;
     margin: 0 auto;
   }
   
@@ -15,7 +15,9 @@ main {
     align-items: center;
     padding: 82px 0px 82px;
 }
-
+  .header__menu {
+  padding-left: 35px;
+  }
   .header__links-list {
     display: flex;
     gap: 32px;
@@ -62,7 +64,7 @@ main {
   .head-address {
     justify-self: end;
     font-style: inherit;
-    width: 250px;
+    padding-right: 100px;
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
 }
@@ -81,11 +83,12 @@ main {
   
   .cover {
     position: relative;
-    padding: 165px 40px 50px 50px;
-    background-image: url(https://github.com/MikeBeloborodov/ono-tebe-nado/blob/main/images/cover.jpg?raw=true);
+    padding: 165px 50px 50px 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/MikeBeloborodov/ono-tebe-nado/blob/main/images/cover.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset;
+    height: 757px;
+    width: 1100px;
   }
   
   .overlay {
@@ -107,10 +110,12 @@ main {
     gap: 20px;
     color: #FFF;
     font-weight: bold;
-    font-size: 54px;
+    font-size: 49px;
     line-height: 1.15;
-    letter-spacing: 42px;
+    letter-spacing: 31px;
     text-transform: uppercase;
+    height: 385px;
+    width: 1000px;
 }
   
   .aligned-text {
@@ -127,8 +132,7 @@ main {
     text-align: right;
   }
   
-  .letter-spacing-extended {
-    letter-spacing: 67px;
+  .aligned-text .text_left {
   }
   
   .remove-spacing {
@@ -141,13 +145,13 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 78px;
-    padding: 136px 0 0;
+    gap: 75px;
+    padding: 89px 0 0;
   }
   
   .cover__description-text {
     color: #FFF;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 1.27;
     text-transform: uppercase;
     word-spacing: 18px;
@@ -171,12 +175,8 @@ main {
     background-color: #FFF;
   }
   
-  .lots {
-    padding: 0 50px;
-  }
-  
   .lots__heading {
-    padding: 0 0 30px 32px;
+    padding: 0 0px 25px 40px;
     font-weight: bold;
     font-size: 40px;
     line-height: 1;
@@ -210,7 +210,7 @@ main {
     height: 100%;
   }
   
-  .type_film { 
+  .film { 
     display: flex;
     background-image: url(https://github.com/VladPixel-ru/first-project/blob/main/images/card-lot-01.jpg?raw=true);
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ main {
     justify-content: space-between;
   }
   
-  .type_book {
+  .book {
     display: flex;
     background-image: url(https://github.com/VladPixel-ru/first-project/blob/main/images/card-lot-02.jpg?raw=true);
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ main {
     flex-direction: column;
   }
   
-  .type_picture {
+  .picture {
     display: flex;
     background-image: url(https://github.com/VladPixel-ru/first-project/blob/main/images/card-lot-03.jpg?raw=true);
     background-repeat: no-repeat;
@@ -260,6 +260,8 @@ main {
     line-height: 1.2;
     text-decoration-line: underline;
     text-transform: uppercase;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
   }
   
   .card__text {
@@ -283,7 +285,6 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 32px;
-    padding: 0 44px;
   }
   
   .about__column {
